@@ -20,6 +20,11 @@ struct ContentView: View {
                     .foregroundColor(Color.white)   //IAmRich-Part
                 Image("diamond").resizable().aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200, alignment: .center)//ImagePart
+                
+                Text("Making Millions!!!")
+                    .font(.system(size: 30))
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.white)
             }
         }
     }
